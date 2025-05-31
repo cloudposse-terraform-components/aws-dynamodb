@@ -6,7 +6,7 @@ locals {
 
 module "dynamodb_table" {
   source  = "cloudposse/dynamodb/aws"
-  version = "0.36.0"
+  version = "0.37.0"
 
   table_name          = var.table_name
   billing_mode        = var.billing_mode
